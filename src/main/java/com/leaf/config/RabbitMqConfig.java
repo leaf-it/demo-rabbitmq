@@ -9,6 +9,8 @@ import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.lang.annotation.Documented;
+
 @Configuration
 public class RabbitMqConfig {
     public static final String EXCHANGE   = "spring-boot-exchange-test";
